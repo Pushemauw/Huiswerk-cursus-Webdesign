@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8"><title>Tandartspraktijk Kieskeurig</title>
+</head>
+<body>
+<h1>Tandartsafspraak</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<br> Fusce dictum magna viverra ultricies vestibulum. In mollis dui sed quam ultricies luctus.
+<br> Donec rutrum molestie sem, et tincidunt nunc auctor at.
+<br>Fusce nulla felis, molestie sit amet dictum et, convallis eu turpis.
+<br>Cras viverra ipsum ut purus rhoncus, id eleifend mauris imperdiet.
+<br>In at nunc quis odio tempor sollicitudin. In non tempor leo.
+<br> Cras iaculis felis ac nisi aliquam, sit amet aliquet elit eleifend.
+<br>Donec dolor dolor, eleifend eu pharetra non, cursus id tellus. Quisque et sodales justo.
+<br>Phasellus nec metus mauris. Maecenas tortor nibh, pellentesque id neque in, cursus iaculis.
+</p>
+<figure>
+<img src="afbeelding/foto4.jpg" title="tandarts" width="300" height="200"/>
+<img src="afbeelding/foto5.jpg" title="tandarts" width="300" height="200"/>
+<img src="afbeelding/foto6.jpg" title="tandarts" width="300" height="200"/>
+</figure>
+<form id="contactform" action="https://formspree.io/f/xdojwkwj" method="post">
+<fieldset>
+<legend>Persoonlijke gegevens</legend>
+<br>
+<label for="naam">Naam:</label>
+<input id="naam" type="text" name="naam">
+<br>
+<br>
+<input type="radio" name="geslacht" value="Man" checked>Man
+<input type="radio" name="geslacht" value="Vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders
+<br>
+<br>
+<label for="adres">Adres:</Label>
+<input id="adres" type="text" name="Adres">
+<br>
+<br>
+<label for="postcode">Postcode:</label>
+<input id="Postcode" type="text" name="Postcode">
+<br>
+<br>
+<label for="woonplaats">Woonplaats:</label>
+<input id="Woonplaats" type="text" name="woonplaats">
+</fieldset>
+<fieldset>
+<legend>Beschrijving van de klachten</legend>
+<b>Definieer uw klachten</b>
+<br>
+<br>
+<!== ik wist niet zo goed wat ik in moest vullen bij beschrijving van de klachten,
+vandaar dat de keuzes nogal onsamenhangend zijn. ==>
+<input type="checkbox" name="klachten" value="Pijn">Pijn
+<input type="checkbox" name="klachten" value="Orthodontie">Orthodontie
+<input type="checkbox" name="klachten" value="Noodgeval">Noodgeval
+<input type="checkbox" name="klachten" value="Periodieke controle">Periodieke controle
+<br>
+<br>
+<label for="fotobestand">Selecteer een fotobestand</label>
+<input type="file" id="fotobestand" name="fotobestand">
+</fieldset>
+<fieldset>
+<legend>Toelichting van de klachten</legend>
+<br>
+<textarea name="toelichting van de klachten" maxlenght="1500" rows="4" cols="50" placeholder="geef een toelichting van uw klachten"></textarea>
+<br>
+<br>
+<p><b>Sinds wanneer ervaart u klachten</b></p>
+<input type="date" name="datum" max="2080-12-31">
+<br>
+<br>
+<input type="submit"></input>
+</fieldset>
+</form>
+</body>
+</html>
